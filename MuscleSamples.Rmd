@@ -7,7 +7,45 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+#Load libraries
+library(tidyverse)
+library(knitr)
+library(dplyr)
+
+tissues_all <- read_csv("data/IN2023V05_TissueSamples.csv")
+tubes <- read_csv("data/IN2023V05_Isotope_Tubes.csv")
+tubes <- tubes %>% 
+  rename("TISSUE" = `Tissue barcode`) %>% 
+  rename("Tube_no" = `tube number`) %>% 
+  rename("Box_no_assamplebag" = `Box number (as written on the sample bag)`)
+  
+cc <- read_csv("data/catchcomp.csv")
 ```
+
+## Match data to tubes
+```{r}
+cc <- cc %>% 
+  select(SPCODE,SCIENTIFIC_NAME,COMMON_NAME) %>%
+  distinct()
+
+tissues_all <- tissues_all %>% 
+  select(SPCODE,SITE_ID,LENGTH_MM,TISSUE,BIOLOGICALS_COMMENTS) %>% 
+  left_join(cc, by = "SPCODE")
+
+#add scientific name
+tubes <- tubes %>%
+  left_join(tissues_all, by = "TISSUE") %>% 
+  arrange(Tube_no) 
+
+# add size catagory
+tubes<- tubes %>% 
+  mutate(Species_size = ifelse(SPCODE == 37296001 & LENGTH_MM >=300, "Platycephalus richardsoni_lg",SCIENTIFIC_NAME)) %>% 
+    mutate(Species_size = ifelse(Species_size == 'Platycephalus richardsoni', "Platycephalus richardsoni_sm",Species_size)) 
+
+write.csv(tubes,"results/SEAMES_IN2023V05_isotopetubes.csv")
+
+```
+
 
 ## R Markdown
 
