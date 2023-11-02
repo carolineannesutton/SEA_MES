@@ -13,6 +13,7 @@ library(knitr)
 library(dplyr)
 
 tissues_all <- read_csv("data/IN2023V05_TissueSamples.csv")
+sites_P <- read_csv("data/Sites_P.csv")
 tubes <- read_csv("data/IN2023V05_Isotope_Tubes.csv")
 tubes <- tubes %>% 
   rename("TISSUE" = `Tissue barcode`) %>% 
@@ -31,6 +32,26 @@ cc <- cc %>%
 tissues_all <- tissues_all %>% 
   select(SPCODE,SITE_ID,LENGTH_MM,TISSUE,BIOLOGICALS_COMMENTS) %>% 
   left_join(cc, by = "SPCODE")
+```
+
+### Priority samples
+```{r}
+sites_P <- sites_P %>% 
+  mutate(choose = "y")
+
+Tissues_priority <- tissues_all %>% 
+  # choose priority sites
+  left_join(sites_P, by = "SITE_ID") %>% 
+  filter(choose == "y") %>% 
+  # choose priority spcecies
+  filter(SPCODE == 37296001 | SPCODE == 37445006 | SPCODE == 37439002 | SPCODE == 37038004 | SPCODE == 37287001 | SPCODE == 37228002| SPCODE == 37465006| SPCODE == 37330014| SPCODE == 37227001)
+
+# check selection
+#distinct(Tissues_priority,COMMON_NAME)
+```
+
+### Tube samples
+```{r}
 
 #add scientific name
 tubes <- tubes %>%
