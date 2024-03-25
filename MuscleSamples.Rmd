@@ -16,11 +16,12 @@ tissues_all <- read_csv("data/IN2023V05_TissueSamples.csv")
 sites_P <- read_csv("data/Sites_P.csv")
 tubes <- read_csv("data/IN2023V05_Isotope_Tubes.csv")
 tubes <- tubes %>% 
-  rename("TISSUE" = `Tissue barcode`) %>% 
+  rename("TISSUE" = `Tissue barcode`)%>% 
+  mutate(TISSUE = as.numeric(TISSUE)) %>% 
   rename("Tube_no" = `tube number`) %>% 
   rename("Box_no_assamplebag" = `Box number (as written on the sample bag)`)
   
-cc <- read_csv("data/catchcomp.csv")
+cc <- read_csv("data/catchcomp.csv") 
 ```
 
 ## Match data to tubes
@@ -31,7 +32,12 @@ cc <- cc %>%
 
 tissues_all <- tissues_all %>% 
   select(SPCODE,SITE_ID,LENGTH_MM,TISSUE,BIOLOGICALS_COMMENTS) %>% 
-  left_join(cc, by = "SPCODE")
+  left_join(cc, by = "SPCODE") 
+
+tubes <- tubes %>% 
+  filter(TISSUE != is.na(TISSUE))
+  
+  
 ```
 
 ### Priority samples
@@ -58,14 +64,23 @@ write_csv(Tissues_priority, "results/SEAMES_IN2023V05_PriorityIsotopeSampeles.cs
 #add scientific name
 tubes <- tubes %>%
   left_join(tissues_all, by = "TISSUE") %>% 
+  filter(TISSUE != is.na(TISSUE)) %>% 
   arrange(Tube_no) 
 
 # add size catagory
 tubes<- tubes %>% 
   mutate(Species_size = ifelse(SPCODE == 37296001 & LENGTH_MM >=300, "Platycephalus richardsoni_lg",SCIENTIFIC_NAME)) %>% 
-    mutate(Species_size = ifelse(Species_size == 'Platycephalus richardsoni', "Platycephalus richardsoni_sm",Species_size)) 
+    mutate(Species_size = ifelse(Species_size == 'Platycephalus richardsoni', "Platycephalus richardsoni_sm",Species_size))
 
-write.csv(tubes,"results/SEAMES_IN2023V05_isotopetubes.csv")
+tubes_1 <- tubes %>% 
+  select(TISSUE,Tube_no,SPCODE, SITE_ID,LENGTH_MM,SCIENTIFIC_NAME,COMMON_NAME,Species_size)
 
+write.csv(tubes_1,"results/SEAMES_IN2023V05_isotopetubes.csv")
+write.csv(tissues_all,"results/SEAMES_IN2023V05_Tissues_All.csv")
 ```
 
+### match Tissues to species 
+```{r}
+TissueData <- tissues_all %>% 
+  left_join(cc)
+```
