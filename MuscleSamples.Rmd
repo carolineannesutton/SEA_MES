@@ -24,7 +24,7 @@ tubes <- tubes %>%
 cc <- read_csv("data/catchcomp.csv") 
 ```
 
-## Match data to tubes
+## Organise data
 ```{r}
 cc <- cc %>% 
   select(SPCODE,SCIENTIFIC_NAME,COMMON_NAME) %>%
@@ -39,7 +39,7 @@ tubes <- tubes %>%
   
   
 ```
-
+## Northern Sites
 ### Priority samples
 ```{r}
 sites_P <- sites_P %>% 
@@ -50,7 +50,10 @@ Tissues_priority <- tissues_all %>%
   left_join(sites_P, by = "SITE_ID") %>% 
   filter(choose == "y") %>% 
   # choose priority spcecies
-  filter(SPCODE == 37296001 | SPCODE == 37445006 | SPCODE == 37439002 | SPCODE == 37038004 | SPCODE == 37287001 | SPCODE == 37228002| SPCODE == 37465006| SPCODE == 37330014| SPCODE == 37227001)
+  filter(SPCODE == 37296001 | SPCODE == 37445006 | SPCODE == 37439002 | SPCODE == 37038004 | SPCODE == 37287001 | SPCODE == 37228002| SPCODE == 37465006| SPCODE == 37330014| SPCODE == 37227001) %>% 
+  # add size categoary
+  mutate(Species_size = ifelse(SPCODE == 37296001 & LENGTH_MM >=300, "Platycephalus richardsoni_lg",SCIENTIFIC_NAME)) %>% 
+    mutate(Species_size = ifelse(Species_size == 'Platycephalus richardsoni', "Platycephalus richardsoni_sm",Species_size))
 
 write_csv(Tissues_priority, "results/SEAMES_IN2023V05_PriorityIsotopeSampeles.csv")
 
@@ -63,17 +66,17 @@ write_csv(Tissues_priority, "results/SEAMES_IN2023V05_PriorityIsotopeSampeles.cs
 
 #add scientific name
 tubes <- tubes %>%
-  left_join(tissues_all, by = "TISSUE") %>% 
+  left_join(Tissues_priority, by = "TISSUE") %>% 
   filter(TISSUE != is.na(TISSUE)) %>% 
   arrange(Tube_no) 
 
-# add size catagory
-tubes<- tubes %>% 
-  mutate(Species_size = ifelse(SPCODE == 37296001 & LENGTH_MM >=300, "Platycephalus richardsoni_lg",SCIENTIFIC_NAME)) %>% 
-    mutate(Species_size = ifelse(Species_size == 'Platycephalus richardsoni', "Platycephalus richardsoni_sm",Species_size))
 
 tubes_1 <- tubes %>% 
   select(TISSUE,Tube_no,SPCODE, SITE_ID,LENGTH_MM,SCIENTIFIC_NAME,COMMON_NAME,Species_size)
+
+tube_basic <- tubes_1 %>% 
+  select(TISSUE,Tube_no)
+  
 
 write.csv(tubes_1,"results/SEAMES_IN2023V05_isotopetubes.csv")
 write.csv(tissues_all,"results/SEAMES_IN2023V05_Tissues_All.csv")
@@ -84,3 +87,37 @@ write.csv(tissues_all,"results/SEAMES_IN2023V05_Tissues_All.csv")
 TissueData <- tissues_all %>% 
   left_join(cc)
 ```
+
+### Match Priority tissue (northern sites only) to tube samples
+```{r}
+TissuePriorityTubes <-Tissues_priority %>% 
+  left_join(tube_basic, by = "TISSUE")
+
+# select for the species where additional samples are required
+Additional_samples<- TissuePriorityTubes %>% 
+filter(Species_size == "Platycephalus richardsoni_sm" | Species_size == "Sillago flindersi" | Species_size == "Nelusetta ayraud")
+
+write.csv(TissuePriorityTubes,"results/TissuePriorityTubes_IN2023V05_Tissues_All.csv")
+
+write.csv(Additional_samples,"results/SelectAdditionalSamples_IN2023V05_Tissues_All.csv")
+
+
+ 
+  # filter(Species_size == "Platycephalus richardsoni_sm" | Species_size == "Sillago fildersi" | Species_size == "Nelusetta ayraud")
+```
+## Southern Sites
+
+### choose southern sites
+```{r}
+TissueSouthernPriority <- tissues_all %>% 
+  filter(str_detect(SITE_ID, "^S")) %>% 
+    # choose priority species
+  filter(SPCODE == 37296001 | SPCODE == 37445006 | SPCODE == 37439002 | SPCODE == 37038004 | SPCODE == 37287001 | SPCODE == 37228002| SPCODE == 37465006| SPCODE == 37330014| SPCODE == 37227001) %>% 
+  # add size categoary
+  mutate(Species_size = ifelse(SPCODE == 37296001 & LENGTH_MM >=300, "Platycephalus richardsoni_lg",SCIENTIFIC_NAME)) %>% 
+    mutate(Species_size = ifelse(Species_size == 'Platycephalus richardsoni', "Platycephalus richardsoni_sm",Species_size))
+
+write.csv(TissueSouthernPriority,"results/SEAMES_IN2023V05_PriorityIsotopeSampeles_Southern.csv")
+
+```
+  
