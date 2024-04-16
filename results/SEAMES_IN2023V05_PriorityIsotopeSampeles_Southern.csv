@@ -1,0 +1,11 @@
+Count of TISSUE,,,SITE_ID,,,,,,,,,,,,
+SCIENTIFIC_NAME,Species_size,COMMON_NAME,S2.1,S2.2,S2.3,S3.1,S3.2,S3.3,S5.1,S5.2,S5.3,S6.1,S6.3,S6.5,Grand Total
+Genypterus blacodes,Genypterus blacodes,Pink Ling,,,,,,,,,,,,10,10
+Helicolenus percoides,Helicolenus percoides,Reef Ocean Perch,,,2,10,10,10,,,,,,,32
+Nelusetta ayraud,Nelusetta ayraud,Ocean Jacket,,6,,,,,,,,,,,6
+Platycephalus richardsoni,Platycephalus richardsoni_lg,Tiger Flathead,,,7,5,4,7,,1,,10,10,2,46
+,Platycephalus richardsoni_sm,Tiger Flathead,,,2,5,6,3,,,,,,,16
+Rexea solandri,Rexea solandri,Gemfish,,,,,,,,,,,,3,3
+Seriolella punctata,Seriolella punctata,Silver Warehou,,,10,3,10,10,10,10,10,1,4,2,70
+Urolophus paucimaculatus,Urolophus paucimaculatus,Sparsely-spotted Stingaree,10,10,10,,,,10,,,,,,40
+Grand Total,,,10,16,31,23,30,30,20,11,10,11,14,17,223

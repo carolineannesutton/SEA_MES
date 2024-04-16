@@ -1,0 +1,856 @@
+SPCODE,SITE_ID,LENGTH_MM,TISSUE,BIOLOGICALS_COMMENTS,SCIENTIFIC_NAME,COMMON_NAME,choose,Species_size
+37228002,N21.1,898,10084934,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37228002,N21.1,839,10084969,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37228002,N21.1,850,10084963,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37228002,N21.1,883,10084913,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37228002,N21.1,796,10084939,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37228002,N21.1,545,10085167,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37228002,N21.1,608,10084958,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37228002,N21.1,1250,10084943,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37228002,N21.1,1150,10084927,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37228002,N21.1,930,10085005,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37227001,N21.1,905,10084907,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N21.1,635,10084937,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N21.1,575,10084967,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N21.1,350,10084904,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N21.1,327,10084965,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N21.1,314,10084875,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N21.1,342,10084905,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N21.1,316,10084935,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N21.1,341,10084876,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N21.1,331,10084964,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37439002,N21.1,428,10085159,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N21.1,424,10085069,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N21.1,407,10085021,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N21.1,410,10084991,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37445006,N21.1,499,10085078,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N21.1,393,10085085,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N21.1,321,10085022,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N21.1,507,10085065,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N21.1,358,10085137,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N21.1,369,10085200,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N21.1,427,10085095,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N21.1,356,10085098,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N21.1,344,10084992,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N21.1,411,10085039,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37287001,N21.3,250,10084664,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N21.3,206,10084724,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37296001,N21.3,428,10084924,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N21.3,497,10084900,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N21.3,330,10084892,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N21.3,493,10084950,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N21.3,449,10084920,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N21.3,442,10084715,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N21.3,515,10084867,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N21.3,438,10084682,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N21.3,462,10084862,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N21.3,379,10084891,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37439002,N21.3,256,10084695,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N21.3,264,10084662,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N21.3,258,10084639,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N21.3,270,10084672,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N21.3,269,10084699,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N21.3,240,10084670,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N21.3,253,10084640,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N21.3,246,10084730,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N21.3,264,10084701,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N21.3,257,10084668,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37445006,N21.3,213,10084636,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N21.3,220,10084686,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N21.3,228,10084719,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N21.3,218,10084729,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N21.3,220,10084691,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N21.3,221,10084658,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N21.3,218,10084629,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N21.3,216,10084633,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N21.3,221,10084667,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N21.3,233,10084643,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37228002,N21.3,428,10084921,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37445006,N23.1,309,10083989,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N23.1,310,10083706,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N23.1,319,10083766,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N23.1,289,10083482,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N23.1,314,10083760,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N23.1,293,10083997,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N23.1,297,10084454,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N23.1,303,10084422,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N23.1,318,10084451,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N23.1,294,10084215,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37439002,N23.1,258,10083777,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N23.1,251,10083805,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N23.1,250,10084274,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N23.1,278,10084216,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N23.1,244,10084218,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N23.1,271,10084220,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N23.1,255,10084276,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N23.1,278,10083715,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N23.1,271,10084037,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N23.1,276,10083974,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37227001,N23.1,311,10083851,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N23.1,416,10083824,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N23.1,335,10083821,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N23.1,338,10083915,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N23.1,428,10083847,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N23.1,357,10084482,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N23.1,330,10083849,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N23.1,307,10084395,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N23.1,326,10083817,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N23.1,447,10083814,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37296001,N23.2,520,10084704,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37445006,N23.2,295,10084683,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N23.2,253,10084711,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N23.2,276,10083698,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N23.2,295,10083773,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N23.2,304,10084040,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N23.2,281,10083918,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N23.2,308,10083858,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37228002,N23.2,573,10084624,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37228002,N23.2,462,10083886,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37227001,N23.2,612,10084535,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N23.2,438,10084505,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N23.2,304,10084705,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N23.2,446,10084564,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N23.2,307,10084501,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N23.2,355,10084531,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N23.2,326,10084561,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N23.2,440,10084591,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37439002,N23.2,277,10084537,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N23.2,266,10084599,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N23.2,288,10084536,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N23.2,269,10084571,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N23.2,283,10084606,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N23.2,279,10084598,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N23.2,277,10084546,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N23.2,265,10084573,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N23.2,257,10084517,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N23.2,255,10084425,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37296001,N23.2,502,10084710,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N23.2,513,10084650,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N23.2,618,10084540,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N23.2,550,10084510,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N23.2,582,10084706,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N23.2,583,10084565,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N23.2,580,10084592,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N23.2,558,10084596,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N23.2,558,10084648,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37038004,N23.3,284,10084192,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N23.3,288,10084249,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N23.3,338,10084191,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N23.3,353,10084188,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N23.3,275,10084253,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37445006,N23.3,241,10084307,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N23.3,261,10084330,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N23.3,235,10084329,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N23.3,216,10084301,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N23.3,218,10084323,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N23.3,241,10084324,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N23.3,224,10084292,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N23.3,259,10084258,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N23.3,242,10084288,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N23.3,262,10084224,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37287001,N23.3,213,10084352,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N23.3,263,10084290,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N23.3,198,10084290,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N23.3,224,10084299,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N23.3,250,10084328,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N23.3,267,10084360,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N23.3,209,10084357,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N23.3,215,10084337,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N23.3,256,10084226,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N23.3,207,10084282,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N25.3,156,NA,whole fish,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37439002,N25.3,281,10084212,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N25.3,242,10084187,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N25.3,279,10084277,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N25.3,265,10084178,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N25.3,256,10084238,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N25.3,251,10084206,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N25.3,242,10083860,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N25.3,243,10083966,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N25.3,254,10083938,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N25.3,236,10084416,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37038004,N25.3,338,10084497,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N25.3,328,10084439,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N25.3,311,10084407,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N25.3,306,10084464,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N25.3,271,10084499,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N25.3,317,10084435,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N25.3,284,10084495,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N25.3,272,10083901,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N25.3,316,10083968,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N25.3,281,10084476,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37330014,N25.3,225,10083874,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N25.3,183,10084412,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N25.3,181,10084475,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N25.3,171,10084472,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N25.3,172,10084443,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N25.3,195,10084410,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N25.3,166,10084408,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N25.3,186,10084404,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N25.3,189,10084384,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N25.3,197,10084409,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37296001,N25.3,400,10084480,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N25.3,364,10084478,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N25.3,298,10084449,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N25.3,451,10084414,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N25.3,402,10083701,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N25.3,429,10084411,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N25.3,282,10084444,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N25.3,295,10084417,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N25.3,327,10084239,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N25.3,459,10083830,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37439002,N27.1,266,10083939,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N27.1,286,10083999,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N27.1,264,10083872,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N27.1,264,10083900,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N27.1,264,10083840,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N27.1,241,10083845,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N27.1,260,10084001,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N27.1,276,10084176,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N27.1,250,10083920,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37296001,N27.1,392,10084049,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37445006,N27.1,227,10084031,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N27.2,220,10083863,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N27.2,203,10084241,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N27.2,200,10084170,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N27.2,199,10084263,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N27.2,191,10084260,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N27.2,197,10084235,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N27.2,193,10084202,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N27.2,196,10083861,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37296001,N27.2,401,10084046,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N27.2,337,10084231,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37439002,N27.2,270,10084264,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37227001,N31.1,435,10084006,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N31.1,400,10083581,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N31.1,416,10083894,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N31.1,327,10083837,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N31.1,419,10083965,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N31.1,285,10084057,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N31.1,418,10084147,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N31.1,412,10083667,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N31.1,419,10083995,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N31.1,340,10084270,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37439002,N31.1,380,10084041,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N31.1,260,10083947,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N31.1,262,10084315,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N31.1,265,10083637,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N31.1,242,10084311,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N31.1,239,10083925,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N31.1,257,10083838,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N31.1,249,10083928,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N31.1,261,10083986,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N31.1,256,10083867,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37228002,N31.1,495,10083865,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37228002,N31.2,930,10084333,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37228002,N31.2,658,10084372,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37228002,N31.2,795,10084310,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37228002,N31.2,603,10084371,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37439002,N31.2,280,10084081,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37227001,N31.2,418,10083975,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N31.2,460,10084036,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N31.2,420,10083977,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N31.2,596,10084032,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N31.2,622,10083945,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N31.2,475,10084143,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N31.2,410,10084348,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N31.2,420,10083610,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N31.2,436,10083949,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N31.2,329,10084347,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37445006,N31.3,264,10084376,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N31.3,258,10084021,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N31.3,277,10083931,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37296001,N31.3,529,10083716,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N31.3,550,10083774,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N31.3,487,10083719,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N31.3,501,10083806,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N31.3,578,10083993,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N31.3,488,10084023,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N31.3,576,10084020,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37445006,N33.1,262,10081901,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N33.1,255,10081949,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N33.1,212,10081878,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N33.1,249,10081931,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N33.1,261,10082345,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N33.1,249,10082344,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N33.1,220,10081883,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N33.1,213,10081897,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N33.1,242,10081365,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N33.1,215,10081918,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37296001,N33.1,340,10082475,TRAWL  No 2,Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N33.1,399,10082900,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N33.1,418,10082696,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37439002,N33.1,252,10081886,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N33.1,254,10082325,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N33.1,254,10081328,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N33.1,284,10082318,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N33.1,283,10082289,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N33.1,269,10082461,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N33.1,287,10082348,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N33.1,254,10082839,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N33.1,247,10082853,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37038004,N33.1,327,10081873,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N33.1,320,10081908,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N33.1,336,10081887,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37228002,N33.1,376,10082855,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37287001,N33.2,232,10082381,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N33.2,245,10082997,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N33.2,216,10082867,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N33.2,220,10082420,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N33.2,183,10082850,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N33.2,204,10082440,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N33.2,182,10082406,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N33.2,180,10082347,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N33.2,164,10082377,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N33.2,129,10082868,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37038004,N33.2,376,10082301,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37296001,N33.2,354,10082967,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N33.2,321,10082360,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N33.2,413,10082991,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N33.2,478,10082373,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N33.2,455,10082465,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37228002,N33.2,473,10082351,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37439002,N33.2,269,10081982,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N33.2,282,10082474,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N33.2,302,10082994,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N33.2,279,10082822,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N33.2,276,10083381,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N33.2,280,NA,tissue lost,Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N33.2,264,10083443,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N33.2,262,10083383,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N33.2,265,10082824,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N33.2,247,10082408,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37465006,N33.3,352,10082432,(null),Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37296001,N33.3,494,10082856,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N33.3,611,10082891,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N33.3,483,10083385,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N33.3,461,10083386,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N33.3,421,10082871,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N33.3,387,10081327,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N33.3,439,10082391,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N33.3,478,10082660,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N33.3,485,10081867,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37439002,N33.3,267,10082860,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N33.3,254,10081189,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N33.3,260,10082844,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N33.3,243,10081116,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N33.3,266,10082890,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N33.3,259,10082884,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N33.3,253,10082966,gonad lost,Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N33.3,258,10082491,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N33.3,272,10082859,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37038004,N33.3,368,10082476,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N33.3,353,10082477,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N33.3,302,10082463,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N33.3,336,10082478,2 pups,Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N33.3,330,10082421,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N33.3,331,10082493,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N33.3,370,10082492,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N33.3,325,10081917,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N33.3,359,10082508,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N33.3,365,10082507,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37465006,N35.1,220,10083530,(null),Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37296001,N35.1,250,10083407,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N35.1,239,10083379,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N35.1,248,10084117,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N35.1,342,10084090,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N35.1,320,10083434,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N35.1,218,10084087,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N35.1,220,10083497,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N35.1,303,10083464,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N35.1,229,10083522,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N35.1,188,10083554,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37228002,N35.1,423,10083552,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37038004,N35.1,304,10083361,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N35.1,347,10083391,pupps,Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N35.1,356,10083364,pupps,Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N35.1,309,10083392,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N35.1,310,10083394,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N35.1,302,10083450,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N35.1,334,10083513,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N35.1,315,10083511,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N35.1,320,10083456,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37439002,N35.1,255,10083491,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N35.1,248,10083516,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N35.1,274,10083549,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37445006,N35.1,213,10083488,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37287001,N35.1,211,10083437,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.1,210,10083410,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.1,161,10083363,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.1,158,10083438,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.1,155,10083420,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.1,158,10083423,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.1,126,NA,bagged whole,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.1,153,NA,bagged whole,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.1,129,NA,bagged whole,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.1,191,10083402,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37445006,N35.2,185,10083459,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N35.2,190,10083590,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N35.2,195,10083755,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N35.2,290,10083759,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N35.2,189,10083753,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N35.2,195,10083752,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N35.2,196,10083620,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N35.2,199,10083787,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N35.2,205,10083756,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N35.2,192,10083729,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37287001,N35.2,179,10083419,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.2,177,10083389,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.2,202,10083387,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.2,185,10083388,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.2,162,10083441,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.2,105,NA,bagged whole,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.2,105,NA,bagged whole,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.2,106,NA,bagged whole,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.2,120,NA,bagged whole,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.2,145,NA,bagged whole,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37296001,N35.2,406,10083645,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N35.2,494,10083608,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N35.2,549,10083641,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N35.2,376,10083582,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N35.2,409,10083433,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N35.2,362,10083589,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N35.2,250,10083657,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N35.2,304,10083781,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N35.2,298,10083659,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N35.2,373,10083655,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37439002,N35.2,273,10083617,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N35.2,274,10083624,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N35.2,274,10083684,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N35.2,273,10083676,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N35.2,251,10083643,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N35.2,249,10083674,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N35.2,262,10083692,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N35.2,281,10083780,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N35.2,254,10083596,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N35.2,265,10083694,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37228002,N35.2,437,10083598,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37038004,N35.2,321,10083658,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N35.2,346,10083594,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37439002,N35.3,270,10084124,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N35.3,274,10084157,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N35.3,265,10084093,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N35.3,266,10084123,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N35.3,304,10084156,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N35.3,262,10084065,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N35.3,268,10084152,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N35.3,276,10084161,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N35.3,277,10084099,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N35.3,285,10084072,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37287001,N35.3,217,10084061,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.3,126,NA,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.3,101,NA,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.3,186,10084088,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.3,200,10084058,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.3,206,10082896,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.3,137,NA,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.3,208,10084109,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.3,172,10084169,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N35.3,126,NA,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37445006,N35.3,201,10083562,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N35.3,216,10083529,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N35.3,217,10083564,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N35.3,206,10083665,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N35.3,211,10083602,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N35.3,209,10083574,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N35.3,207,10083664,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N35.3,202,10083631,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N35.3,208,10083633,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N35.3,207,10083601,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37296001,N35.3,411,10084131,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N35.3,355,10084070,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N35.3,364,10084128,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N35.3,363,10083560,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N35.3,320,10084103,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N35.3,370,10084133,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N35.3,371,10084075,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N35.3,462,10084108,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N35.3,510,10084104,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N35.3,428,10084168,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37038004,N35.3,283,10083660,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N35.3,333,10083565,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37296001,N37.1,460,10082302,shot 3,Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N37.1,462,10082339,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37287001,N37.1,290,10082338,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N37.1,234,10082304,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N37.1,227,10081409,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N37.1,242,10081379,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N37.1,231,10082460,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N37.1,197,10082321,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N37.1,168,10082296,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N37.1,156,10082323,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N37.1,137,10082430,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N37.1,111,10081331,whole fish,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37445006,N37.1,242,10081347,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.1,250,10082300,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.1,197,10082337,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.1,242,10082335,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.1,239,10082291,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.1,247,10082490,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.1,256,10081891,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.1,251,10082316,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.1,207,10081496,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.1,264,10081465,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37439002,N37.1,322,10082327,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N37.1,261,10081376,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N37.1,269,10081356,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N37.1,296,10081375,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N37.1,311,10081406,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N37.1,292,10081337,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N37.1,274,10082297,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N37.1,293,10082298,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N37.1,240,10082328,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N37.1,248,10082294,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37445006,N37.2,259,10081083,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.2,260,10081137,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.2,255,10082483,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37439002,N37.2,266,10081872,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N37.2,302,10082284,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N37.2,252,10081900,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N37.2,272,10081862,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N37.2,257,10081414,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N37.2,335,10081497,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N37.2,267,10081929,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N37.2,283,10081860,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37038004,N37.2,333,10081928,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N37.2,382,10082292,Female have pup,Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N37.2,317,10081385,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37287001,N37.2,204,10081877,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N37.2,234,10082016,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N37.2,229,10081957,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N37.2,223,10081987,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N37.2,201,10081906,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N37.2,177,10081896,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N37.2,199,10081498,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N37.2,172,10081349,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N37.2,168,10081875,whole fish,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N37.2,155,10081936,whole fish,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37296001,N37.2,434,10081197,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N37.2,452,10081988,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N37.2,405,10082282,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N37.2,487,10081304,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37445006,N37.2,273,10082283,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.2,298,10081440,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.2,280,10081868,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.2,270,10081415,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.2,277,10082512,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.2,267,10082017,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.2,267,10081160,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.3,270,10081381,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.3,239,10081404,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.3,275,10081472,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.3,263,10081494,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.3,253,10082319,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.3,285,10081433,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.3,277,10081499,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.3,261,10082290,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.3,270,10081493,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N37.3,227,10082514,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37296001,N39.1,462,10082525,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N39.1,316,10082584,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N39.1,301,10082439,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N39.1,325,10082521,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N39.1,264,10083282,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N39.1,284,10083284,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N39.1,273,10083335,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N39.1,285,10083305,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N39.1,144,10083276,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N39.1,195,10083342,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37439002,N39.1,238,10083295,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N39.1,266,10083357,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N39.1,248,10083350,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N39.1,268,10083323,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N39.1,256,10083355,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N39.1,262,10082571,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N39.1,249,10082602,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N39.1,258,10082576,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37287001,N39.1,132,NA,BAGGED WHOLE,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.1,120,NA,BAGGED WHOLE,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.1,94,NA,BAGGED WHOLE,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.1,161,NA,BAGGED WHOLE,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.1,140,NA,BAGGED WHOLE,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.1,124,NA,BAGGED WHOLE,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.1,134,NA,BAGGED WHOLE,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.1,103,NA,BAGGED WHOLE,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.1,107,NA,BAGGED WHOLE,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.1,110,NA,BAGGED WHOLE,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37330014,N39.1,152,10083243,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.1,155,10083183,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.1,200,10082564,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.1,159,10082594,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.1,146,10082582,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.1,147,10082600,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.1,157,10082534,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.1,144,10082580,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.1,141,10082562,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.1,143,10083184,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37287001,N39.2,251,10082518,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.2,250,10082488,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.2,204,10082457,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.2,222,10082388,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.2,200,10082397,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.2,141,NA,whole fish,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.2,142,NA,whole fish,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.2,125,NA,whole fish,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.2,126,NA,whole fish,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.2,132,NA,whole fish,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37296001,N39.2,346,10082578,tissue and gonads in same bag,Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N39.2,281,10082579,tissue and gonads in same bag,Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N39.2,299,10082597,tissue and gonads in same bag,Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N39.2,254,10082220,tissue and gonads in same bag,Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N39.2,280,10082074,tissue and gonads in same bag,Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N39.2,206,10082103,tissue and gonads in same bag,Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N39.2,221,10082108,tissue and gonads in same bag,Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N39.2,253,10082069,tissue and gonads in same bag,Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N39.2,248,10081401,tissue and gonads in same bag,Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37439002,N39.2,262,10082496,tissue and gonads in same bag,Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N39.2,263,10082409,tissue and gonads in same bag,Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N39.2,258,10082349,tissue and gonads in same bag,Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N39.2,261,10082357,tissue and gonads in same bag,Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N39.2,249,10082386,tissue and gonads in same bag,Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N39.2,264,10082416,tissue and gonads in same bag,Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N39.2,254,10081491,tissue and gonads in same bag,Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N39.2,253,10082467,tissue and gonads in same bag,Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N39.2,250,10081492,tissue and gonads in same bag,Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N39.2,263,10082209,tissue and gonads in same bag,Rexea solandri,Gemfish,y,Rexea solandri
+37465006,N39.2,199,10083352,(null),Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37465006,N39.2,246,10082173,(null),Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37465006,N39.2,199,10082169,(null),Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37465006,N39.2,313,10082201,(null),Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37445006,N39.2,212,10083319,tissue and gonads in same bag,Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N39.2,198,10083351,tissue and gonads in same bag,Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N39.2,195,10082097,tissue and gonads in same bag,Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37330014,N39.2,208,10083281,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.2,133,10083348,gonad lost,Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.2,142,10083288,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.2,222,10083279,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.2,167,10082551,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.2,217,10083317,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.2,173,10083278,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.2,166,10083314,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.2,162,10083316,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.2,224,10083277,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37296001,N39.3,449,10083152,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N39.3,353,10083096,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N39.3,309,10083155,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N39.3,241,10083092,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N39.3,205,10083094,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N39.3,258,10083095,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N39.3,339,10083079,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N39.3,290,10083019,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N39.3,278,10083231,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N39.3,219,10083122,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37445006,N39.3,202,10083209,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N39.3,191,10083230,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N39.3,208,10083259,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N39.3,194,10083267,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N39.3,195,10083265,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N39.3,187,10083200,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N39.3,190,10083266,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37439002,N39.3,254,10083206,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N39.3,251,10083257,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N39.3,254,10083205,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N39.3,244,10083220,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N39.3,262,10083139,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N39.3,267,10083145,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N39.3,264,10083188,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N39.3,248,10083253,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N39.3,239,10083224,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N39.3,244,10083233,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37465006,N39.3,146,10083114,(null),Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37465006,N39.3,188,10083168,(null),Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37465006,N39.3,188,10083161,(null),Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37465006,N39.3,200,10083158,(null),Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37465006,N39.3,195,10083128,(null),Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37465006,N39.3,189,10083130,(null),Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37287001,N39.3,148,NA,whole fish,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.3,130,NA,whole fish,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.3,107,NA,whole fish,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.3,216,10083241,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.3,145,NA,whole fish,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.3,135,NA,whole fish,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.3,120,NA,whole fish,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.3,150,NA,whole fish,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.3,141,NA,whole fish,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N39.3,146,NA,whole fish,Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37330014,N39.3,160,10083329,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.3,205,10083196,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.3,170,10083250,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.3,196,10083201,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.3,173,10083192,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.3,207,10083255,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.3,152,10083234,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.3,173,10083299,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.3,158,10083212,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N39.3,167,10083186,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N41.1,168,10083011,shot2,Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N41.1,158,10083065,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N41.1,164,10083005,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N41.1,171,10082978,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N41.1,159,10082917,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N41.1,171,10082926,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N41.1,188,10082986,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N41.1,189,10082914,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N41.1,212,10082951,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N41.1,212,10080757,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37038004,N41.1,355,10082941,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N41.1,386,10083058,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37445006,N41.1,235,10083088,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N41.1,228,10083057,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37296001,N41.3,384,10082953,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37445006,N41.3,198,10082965,shot1,Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N41.3,201,10082968,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N41.3,210,10082992,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N41.3,200,10082933,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N41.3,214,10082960,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N41.3,203,10082863,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37439002,N41.3,272,10082923,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N41.3,262,10082931,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N41.3,268,10082928,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N41.3,257,10082956,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N41.3,256,10083119,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N41.3,250,10082929,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N41.3,275,10082952,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N41.3,273,10083034,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N41.3,235,10083061,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37465006,N43.1,216,10082908,(null),Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37465006,N43.1,199,10081171,(null),Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37465006,N43.1,223,10082842,(null),Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37330014,N43.1,195,10082402,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N43.1,197,10081932,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N43.1,169,10082693,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N43.1,153,10081919,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N43.1,163,10082341,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N43.1,177,10081960,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N43.1,176,10081994,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N43.1,171,10082392,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N43.1,169,10082738,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N43.1,173,10082775,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37296001,N43.1,347,10082805,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N43.1,337,10082737,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N43.1,262,10082764,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N43.1,337,10082766,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N43.1,285,10082761,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N43.1,278,10082906,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N43.1,299,10082909,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N43.1,299,10082902,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N43.1,337,10081881,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N43.1,285,10081880,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37038004,N43.1,314,10082745,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N43.1,293,10082763,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37445006,N43.2,206,10082786,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37439002,N43.2,255,10081159,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N43.2,257,10081172,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N43.2,244,10082796,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N43.2,271,10081111,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N43.2,265,10082811,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N43.2,264,10082804,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N43.2,260,10082778,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N43.2,264,10082643,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N43.2,294,10082700,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N43.2,260,10082704,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37296001,N43.2,462,10082709,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N43.2,433,10082674,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N43.2,366,10082646,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N43.2,261,10082735,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N43.2,354,10082801,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N43.2,312,10082784,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N43.2,391,10082803,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N43.2,316,10082780,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N43.2,214,10082800,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37296001,N43.2,229,10082742,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37330014,N43.2,183,10082769,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N43.2,164,10082768,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N43.2,197,10082719,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N43.2,223,10082722,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N43.2,178,10082777,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N43.2,214,10082671,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N43.2,220,10082644,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N43.2,158,10082752,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N43.2,188,10082701,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37330014,N43.2,165,10082672,(null),Sillago flindersi,Eastern School Whiting,y,Sillago flindersi
+37038004,N43.2,366,10081080,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N43.2,380,10081110,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N43.2,411,10082843,developed eggs,Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N43.2,279,10082905,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N43.2,286,10081188,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N43.2,370,10081170,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N43.2,139,NA,bagged whole,Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37465006,N43.2,295,10081146,(null),Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37465006,N43.2,184,10081176,(null),Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37439002,N43.3,286,10082008,scavenging previous shot discards,Rexea solandri,Gemfish,y,Rexea solandri
+37465006,N43.3,319,10082010,scavenging previous shot discards,Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37465006,N43.3,301,10081980,scavenging previous shot discards,Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37465006,N43.3,274,10082011,scavenging previous shot discards,Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37465006,N43.3,337,10082007,scavenging previous shot discards,Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37465006,N43.3,301,10081977,scavenging previous shot discards,Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37465006,N43.3,306,10082311,scavenging previous shot discards,Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37465006,N43.3,301,10081953,scavenging previous shot discards,Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37465006,N43.3,297,10081963,scavenging previous shot discards,Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37465006,N43.3,402,10082361,scavenging previous shot discards,Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37465006,N43.3,196,10081962,scavenging previous shot discards,Nelusetta ayraud,Ocean Jacket,y,Nelusetta ayraud
+37038004,N43.3,360,10082353,developing eggs,Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N43.3,255,10082396,(null),Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N43.3,294,10082424,developing eggs,Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N43.3,354,10082281,recently pupped,Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N43.3,329,10082363,developing eggs,Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37038004,N43.3,276,10081954,developing eggs,Urolophus paucimaculatus,Sparsely-spotted Stingaree,y,Urolophus paucimaculatus
+37296001,N45.1,473,10082919,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N45.1,471,10082957,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_lg
+37296001,N45.1,272,10083059,(null),Platycephalus richardsoni,Tiger Flathead,y,Platycephalus richardsoni_sm
+37287001,N45.1,256,10082698,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N45.1,225,10082617,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N45.1,199,10083013,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N45.1,216,10082667,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N45.1,223,10082728,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37287001,N45.1,200,10082697,(null),Helicolenus percoides,Reef Ocean Perch,y,Helicolenus percoides
+37439002,N45.1,232,10083027,gonad too small to sample,Rexea solandri,Gemfish,y,Rexea solandri
+37228002,N45.2,723,10082621,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37228002,N45.2,629,10083146,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37228002,N45.2,538,10083175,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37228002,N45.2,483,10082647,gonad too small,Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37228002,N45.2,888,10082677,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37228002,N45.2,581,10082817,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37228002,N45.2,623,10082679,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37228002,N45.2,547,10082788,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37227001,N45.2,411,10082682,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N45.2,438,10082932,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N45.2,429,10082652,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N45.2,412,10082712,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N45.2,423,10082680,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N45.2,439,10082648,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N45.2,395,10082708,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N45.2,421,10082681,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N45.2,434,10082711,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N45.2,417,10082651,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37439002,N45.2,253,10082685,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37445006,N45.3,270,10083075,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N45.3,279,10083078,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N45.3,304,10083042,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N45.3,256,10083012,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N45.3,277,10083073,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N45.3,265,10083016,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37445006,N45.3,276,10082616,(null),Seriolella punctata,Silver Warehou,y,Seriolella punctata
+37439002,N45.3,289,10083178,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N45.3,294,10083172,gonad LOST,Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N45.3,278,10083171,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N45.3,267,10083133,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N45.3,250,10083102,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N45.3,278,10083141,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N45.3,257,10083112,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N45.3,273,10083164,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N45.3,251,10083166,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37439002,N45.3,237,10083136,(null),Rexea solandri,Gemfish,y,Rexea solandri
+37228002,N45.3,486,10083043,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37228002,N45.3,588,10082628,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37228002,N45.3,706,10082625,(null),Genypterus blacodes,Pink Ling,y,Genypterus blacodes
+37227001,N45.3,303,10082618,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N45.3,319,10082626,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N45.3,323,10082636,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N45.3,332,10082630,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N45.3,315,10082635,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N45.3,92,10082638,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N45.3,283,10082629,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N45.3,286,10082627,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N45.3,336,10082624,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
+37227001,N45.3,335,10082639,(null),Macruronus novaezelandiae,Blue Grenadier,y,Macruronus novaezelandiae
