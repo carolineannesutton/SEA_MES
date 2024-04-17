@@ -1,0 +1,61 @@
+---
+title: "otolith barcode allocation"
+author: "Caroline Sutton"
+date: "2024-04-16"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+#Load libraries
+library(tidyverse)
+library(knitr)
+library(dplyr)
+
+# read in data
+O_allocation <- read_csv ("//fs1-hba.nexus.csiro.au/{EV-SEA-MES}/work/SampleProcessing/Otolith_barcode_allocation/Otolith_barcode_allocation.csv")
+
+whole_fish <- read_csv ("//fs1-hba.nexus.csiro.au/{EV-SEA-MES}/work/SampleProcessing/Whole Fish/WholeBaggedFishExtract&Processing_16April2023_cs.csv")
+
+tissues <-
+```
+
+#Data manipulation 
+comparing whole fish and ototlith data
+```{r}
+#select data and add NBC = barcode
+WF_1 <- whole_fish %>% 
+  select(BARCODE_BAG,SPCODE,Barcode_Stom,VialRef_Isotope) %>% 
+  mutate(NBC = Barcode_Stom) %>% 
+  mutate(NBC = as.numeric(NBC))
+
+# add NBC as per above
+O_1 <- O_allocation %>% 
+  mutate(NBC = New_otolith_barcode)
+  
+# joing to assess matching
+Otolith_dupmatch <- O_1 %>% 
+  left_join(WF_1, by = 'NBC', keep = FALSE)
+# no matches found between otoliths and the whole fish data
+
+# check for duplicates in the whole fish data
+Dups <-WF_1[duplicated(WF_1$Barcode_Stom), ]
+ 
+
+```
+comparing tissue subsampling and whole fish
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
