@@ -1,0 +1,47 @@
+---
+title: "barcodes for samples splits"
+author: "Caroline Sutton"
+date: "2024-08-07"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+require('baRcodeR')
+```
+
+
+Specify the number of times to print each barcode after its
+barcode number
+```{r}
+### Caroline, you specify the number of times to print each barcode after its
+### number
+# ID_numbers <- c(rep(10070034, 5), rep(10070033), rep(10070114, 5), rep(10070142,3), rep(10070141, 2),
+#                 rep(10070233, 2), rep(10070322), rep(10070369, 5), rep(10070370, 10), rep(10070410, 5),
+#                 rep(10070410, 5), rep(10070445), rep(10070501, 2), rep(10070545), rep(10070617, 2),
+#                 rep(10070653, 10), rep(10070725, 5), rep(10070790, 10), rep(1007013, 5), rep(10070843, 5),
+#                 rep(10070867, 10), rep(10070922, 5), rep(10070979, 5), rep(10071031), rep(10071063, 5),
+#                 rep(10071090, 10), rep(10071129, 5), rep(10071156, 15), rep(10071191, 10), rep(10071207, 10),
+#                 rep(10071244, 10), rep(10071280, 10), rep(10071323, 10), rep(10071377), rep(10071428, 6),
+#                 rep(10071479, 5), rep(10071497,2), rep(10071494), rep(10071499), rep(10071566), rep(10071604, 2),
+#                 rep(10071739), rep(10071740, 10), rep(10071777,5), rep(10071829, 5), rep(10071861,3), rep(10071917, 15),
+#                 rep(10071962, 15), rep(10072008), rep(10072019, 5), rep(10072019, 5), rep(10072059, 10), rep(10072082, 5),
+#                 rep(10072107, 5), rep(10072142, 5), rep(10072192, 10), rep(10072192, 10), rep(10072227, 10))
+
+# extra barcodes
+ ID_numbers <- c(rep(10071917, 25))
+```
+
+
+```{r}
+strings <- rep("CSIRO SEA-MES 2023 Sponges\n", length(ID_numbers))
+
+file_name <- "SEA-MES_lables_sponge_splits"
+
+custom_create_PDF(Labels=ID_numbers, name=file_name, alt_text = strings, 
+                  type="linear",
+                  Fsz=10, label_height = 0.5, numrow=10, numcol=3, denote="\n",
+                  page_width = 8.3, page_height = 11.7)
+```
+
