@@ -1,0 +1,81 @@
+---
+title: "SEAMES salp catch compilation from the trawl"
+author: "Caroline Sutton"
+date: "2024-08-28"
+output: html_document
+---
+
+Notes:
+Creating a catch compilation for IN2023_V05 and IN2024_V03
+Data from Ruth Erikson's salp gut contents work
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## set up
+
+```{r}
+library(tidyverse)
+library(dplyr)
+library(knitr)
+```
+
+## load data
+```{r}
+Shot <- read.csv("data/SEAMES_Trawl_shotdata_20240829.csv")
+SalpsCC <- read.csv("data/20240802_V_INVERTEBRATE_CATCH_2_Salps_20240829.csv")
+```
+
+## create dataset
+
+explore data
+make sure its only trawl data
+```{r}
+Shot %>% 
+  distinct(Gear)
+SalpsCC %>% distinct(SCIENTIFIC_NAME_shore)
+
+is.numeric(SalpsCC$TOTAL_COUNT)
+is.numeric(SalpsCC$TOTAL_WT_G)
+```
+
+select data
+```{r}
+Thetys <- SalpsCC %>%
+  filter(SCIENTIFIC_NAME_shore == "Thetys vagina") %>% 
+  select(BARCODE,split_no,SPCODE,SCIENTIFIC_NAME,SCIENTIFIC_NAME_shore, SURVEY_OPS, OTU_NAME, TOTAL_COUNT,TOTAL_WT_G,RETAINED_WT_G)
+  
+```
+
+check out column names
+
+```{r}
+colnames(Shot)
+colnames(Thetys)
+```
+
+combine data
+
+```{r}
+Theyts_shot <- Shot %>% 
+  left_join(Thetys, by = "SURVEY_OPS")
+```
+
+
+data checks
+
+```{r}
+is.numeric(Thetys$TOTAL_COUNT)
+
+Theyts_shot[duplicated(Theyts_shot$SURVEY_OPS), ]
+#duplicates b/c many barcode = NA
+Theyts_shot[duplicated(Theyts_shot$BARCODE), ]
+
+Thetys[duplicated(Thetys$SURVEY_OPS), ]
+Thetys[duplicated(Thetys$BARCODE), ]
+```
+
+```{r}
+write.csv(Theyts_shot, "results/SEAMES_Theyts_Shot_20240829.csv")
+```
