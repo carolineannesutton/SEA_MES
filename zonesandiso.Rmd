@@ -1,0 +1,57 @@
+---
+title: "trophic and isotope-zone"
+author: "sutton"
+date: "2024-12-24"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(dplyr)
+library(knitr)
+```
+load data
+```{r}
+#"C:\Data Focus\RProjects\SEA_MES\data\20240801_V_INVERTEBRATE_CATCH_2_sponges.csv"
+#"C:\Data Focus\RProjects\SEA_MES\data\Invertebrate_sponge_subsampling_241224.csv"
+iso <- read.csv("X:/work/Taxonomy/Sampling Inventories/IsoZones.csv")
+zones <- read.csv("X:/work/Taxonomy/Sampling Inventories/zones.csv")
+```
+
+view dataset names
+
+```{r}
+colnames(zones)
+colnames(iso)
+```
+
+distinct values for Survey_Ops, Lat = ON_BOTTOM_USBL_BEACON_LATITUDE, Long = N_BOTTOM_USBL_BEACON_LONGITUDE)
+
+
+```{r}
+
+zones1 <- zones %>% 
+  distinct(Survey.Ops,.keep_all = TRUE) %>% 
+  select(Survey_Ops = Survey.Ops, Barcode, Lat = On.Bottom.Usbl.Beacon.Latitude, Long = On.Bottom.Usbl.Beacon.Longitude, Site_ID = Site.ID.voyage.specific.waypoint.grid., Zone, Ops, Voyage)
+
+iso1 <- iso %>% 
+  distinct(Survey_Ops, .keep_all = TRUE) %>% 
+  select(Survey_Ops,barcode_tissue.1, Site_ID = SITE_ID, Tube_NO,Tube, zone, iso_group)
+```
+
+join datasets
+
+```{r}
+
+# left_join(d1, d2, by = c("x" = "x2", "y" = "y2"))
+
+ZonesIso <- left_join(zones1,iso1, by = "Survey_Ops") %>% 
+  mutate(test = ifelse(Zone == zone, 1,0))
+
+```
+Write dataset
+
+```{r}
+write.csv(ZonesIso, "X:/work/Taxonomy/Sampling Inventories/SEAMESZoneIso.csv")
+```
