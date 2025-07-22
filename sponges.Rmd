@@ -15,15 +15,37 @@ load data
 ```{r}
 #"C:\Data Focus\RProjects\SEA_MES\data\20240801_V_INVERTEBRATE_CATCH_2_sponges.csv"
 #"C:\Data Focus\RProjects\SEA_MES\data\Invertebrate_sponge_subsampling_241224.csv"
-sponges <- read.csv("data/20240801_V_INVERTEBRATE_CATCH_2_sponges.csv")
+# sponges <- read.csv("data/20240801_V_INVERTEBRATE_CATCH_2_sponges.csv")
 subsamples <- read.csv("data/Invertebrate_sponge_subsampling_241224.csv")
 
+SEAMES_inverts <- read_csv("data/V_INVERT_CATCHES_GROSSED_WITH_RAW.csv")
+SEAMES_Ops <- read_csv("data/Operations_SEAMES1-2-3-4.csv")
 ```
 
 select fields from invert catch
 ```{r}
-sponges <- sponges %>% 
-  select(SURVEY_OPS, Latitude = ON_BOTTOM_USBL_BEACON_LATITUDE, longitude = ON_BOTTOM_USBL_BEACON_LATITUDE)
+colnames(SEAMES_inverts)
+unique(SEAMES_inverts$SCIENTIFIC_NAME)
+```
+
+select shot data
+
+```{r}
+SEAMES_shots <- SEAMES_Ops %>% 
+  select(SURVEY, SURVEY_OPS, Lat = `Start Position (Lat)`, Long = `Start Position (Long)`, Depth = `Start Depth (m) (TW & DTC USBL on bott)`)
+```
+
+Filter for sponges and join shot data 
+
+```{r}
+sponges_gross <- SEAMES_inverts %>% 
+  filter(SPCODE <= 10000999) %>% 
+  left_join(SEAMES_shots, by = "SURVEY_OPS")
+```
+
+write data
+```{r}
+write.csv(sponges_gross,"results/SEAMES_Sponge_Grossed_ShotData.csv")
 ```
 
 site data
@@ -38,12 +60,3 @@ subsamples_sites <- subsamples %>%
 
 ```
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
