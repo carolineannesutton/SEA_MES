@@ -20,7 +20,9 @@ subsamples <- read.csv("data/Invertebrate_sponge_subsampling_241224.csv")
 
 SEAMES_inverts <- read_csv("data/V_INVERT_CATCHES_GROSSED_WITH_RAW.csv")
 SEAMES_Ops <- read_csv("data/Operations_SEAMES1-2-3-4.csv")
+spongeID <- read_csv("data/SEAMES_sponges_ids.csv")
 ```
+
 
 select fields from invert catch
 ```{r}
@@ -48,8 +50,91 @@ write data
 write.csv(sponges_gross,"results/SEAMES_Sponge_Grossed_ShotData.csv")
 ```
 
-site data
+
+Unique speices
 ```{r}
+unique(spongeID$unique)
+
+colnames(spongeID)
+
+spongeID <- spongeID %>% 
+  rename(voyage = voayge) 
+
+
+colnames(spongeID)
+
+unique_per_voyage <- spongeID %>%
+  group_by(voyage) %>%
+  summarise(
+    unique_species = n_distinct(unique),
+    species_list = list(unique(unique))
+  )
+
+unique_per_voyage <- spongeID %>%
+  group_by(voyage) %>%
+  summarise(
+    unique_species_count = n_distinct(unique),
+    species_list = list(unique(unique)),
+    .groups = "drop"
+  )
+##testing code - all good
+# spongeID %>% 
+#   filter(voyage == "INV24V3") %>% 
+#   distinct(unique)
+```
+#count per voyage
+```{r}
+spongeID %>%
+  group_by(voyage) %>%
+  summarise(ops = n_distinct(ops))
+  
+
+  
+
+
+```
+# 100 unique speices
+```{r}
+species_voyage_counts <- spongeID %>%
+  distinct(voyage, unique) %>%       # One row per species-voyage combo
+  group_by(unique) %>%
+  summarise(n_voyages = n(), .groups = "drop")  # Count how many voyages each species appears in
+
+species_in_one_voyage <- species_voyage_counts %>%
+  filter(n_voyages == 1)             # Keep only species found in one voyage
+
+n_species_one_voyage <- nrow(species_in_one_voyage)  # Count of such species
+
+n_species_one_voyage
+```
+
+cross over bw voyages
+```{r}
+
+#voyage as character
+
+voyage_species <- spongeID %>%
+  select(voyage, unique) %>%
+  distinct()
+
+
+# Create all pairwise combinations
+voyage_pairs <- expand.grid(v1 = voyage_species$voyage, v2 = voyage_species$voyage) %>%
+  filter(v1 < v2)  # avoid duplicate and self-pairs
+
+overlap_results <- voyage_pairs %>%
+  rowwise() %>%
+  mutate(
+    common_species = length(intersect(
+      voyage_species$species[[which(voyage_species$VOYAGE == v1)]],
+      voyage_species$species[[which(voyage_species$VOYAGE == v2)]]
+    ))
+  )
+
+print(overlap_results)
+```
+
+```{R}
 subsamples_sites <- subsamples %>% 
   select(SURVEY_OPS, operation,Voyage) %>% 
   unique() %>% 
@@ -57,6 +142,8 @@ subsamples_sites <- subsamples %>%
   arrange(Voyage) %>% 
   left_join(sponges, by = "SURVEY_OPS") %>% 
   unique()
+
+
 
 ```
 
