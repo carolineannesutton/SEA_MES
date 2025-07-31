@@ -17,9 +17,96 @@ load data
 #"C:\Data Focus\RProjects\SEA_MES\data\Invertebrate_sponge_subsampling_241224.csv"
 iso <- read.csv("X:/work/Taxonomy/Sampling Inventories/IsoZones.csv")
 zones <- read.csv("X:/work/Taxonomy/Sampling Inventories/zones.csv")
+
+#isotope data
+results <- read_csv("data/isotopes/invert_iso_results.csv")
+cephs <- read_csv("data/isotopes/ceph_tissue.csv")
+krill <- read_csv("data/isotopes/krill_tissue.csv")
+prawn <- read_csv("data/isotopes/prawn_tissue.csv")
+
 ```
 
-view dataset names
+
+ISOTOPE RESULTS
+
+
+need survey_op data for cephs
+select feilds
+```{r}
+colnames(cephs)
+colnames(iso)
+
+#get survey_ops
+iso_ops <- iso %>%
+  mutate(BARCODE = as.numeric(BARCODE)) %>% 
+  select(BARCODE,Survey_Ops) %>% 
+  distinct(BARCODE, .keep_all = TRUE)
+
+colnames(iso_ops)
+
+cephs_1 <- cephs %>%
+  drop_na(Tubeno) %>% 
+  filter(Tubeno != "x") %>% 
+  mutate(sample_ID = Tubeno) %>% 
+  mutate(TubeID = Tubeno) %>% 
+  left_join(iso_ops, by = "BARCODE") %>% 
+  mutate(type = "ceph") %>% 
+  select(sample_ID,TubeID, type,Survey_Ops,SITE_ID, zone, Length = ML_mm,sex)
+  
+results <- results %>% 
+  mutate(Lab = "csiro")
+```
+
+
+
+conform invert metatdata
+```{r}
+krill_1 <- krill %>% 
+  mutate(sample_ID = Tubeno) %>% 
+  mutate(TubeID = Tubeno) %>% 
+  mutate(type = "krill") %>% 
+  select(sample_ID, TubeID,type,Survey_Ops = Survey_ops)
+  
+
+prawn_1 <- prawn %>% 
+  mutate(
+    sample_ID = TubeID,
+    Length = as.numeric(CL_mm),
+    type = "prawn") %>% 
+  select(sample_ID, TubeID, type,Survey_Ops,  SITE_ID, zone = Zone,Length)
+
+```
+stack invert metatdata
+```{r}
+colnames(krill_1)
+colnames(prawn_1)
+colnames(cephs_1)
+
+
+tissue <- bind_rows(cephs_1, prawn_1,krill_1)
+```
+
+add tissue metadata to results
+
+```{r}
+colnames(tissue)
+colnames(results)
+
+results_inverts <- results %>% 
+  left_join(tissue, by = "sample_ID")
+```
+
+write data
+
+```{r}
+write.csv(results_inverts, "X:/work/Trophic_Hypothesis/tissue_samples/isotope results/SEAMES_isotope_invertebrate_results.csv")
+
+
+```
+
+
+
+
 
 ```{r}
 colnames(zones)
