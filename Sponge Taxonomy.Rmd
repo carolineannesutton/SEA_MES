@@ -1,0 +1,86 @@
+---
+title: "Sponge Taxonomy"
+author: "sutton"
+date: "2025-09-01"
+output: html_document
+---
+
+set up
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(dplyr)
+library(knitr)
+```
+
+load data
+```{r}
+SpongeID <- read_csv("X:/work/Taxonomy/Inverts/Sponges/LisaGoudie_ID/R/CsiroSeamesIDsSpp_compiled.csv")
+subsampling <- read_csv("X:/work/Taxonomy/Inverts/Sponges/Sponge_subsampling/Invertebrate_sponge_subsampling.csv",
+                         col_types = cols(
+    Split_Number = col_character()
+  ))
+# need to import split number as text
+colnames(subsampling)
+```
+filter out duplicates
+
+
+
+```{r}
+SpongeID<- SpongeID %>% 
+  filter(Slide != 2)
+```
+
+  rename
+
+```{r}
+colnames(SpongeID)
+```
+rename
+```{r}
+
+SpongeID <- SpongeID %>% 
+rename(Identifier_Ops_No = `Identifier Ops No`) %>% 
+rename(Genus_Subgenus = `Genus  (Subgenus)`)
+```
+
+combine tables
+
+```{r}
+SEAMES_spongeID <- subsampling %>%
+  select(SURVEY_OPS,Split_Number,Barcode_Parent,ethanol_SS, frozen_ss,Unique_ID,CAAB,catmi_name,OTU_description,refer_to,commentCS = comment) %>% 
+  left_join(SpongeID, by= "Unique_ID")
+```
+
+select columns
+```{r}
+SEAMES_spongeID_final <- SEAMES_spongeID %>% 
+select(SURVEY_OPS,Barcode_Parent,Split_Number,Identifier_Ops_No,
+       Unique_ID,
+       TAXA,Class, Order, Family, Genus_Subgenus, species, 
+       Comment, refer_to, ethanol_SS, frozen_ss, Slide,OTU_description)
+```
+
+write to file
+```{r}
+write.csv(SEAMES_spongeID_final,"results/SEAMES_Sponge_ID.csv")
+```
+
+explore sponge data
+
+```{r}
+
+SEAMES_spongeID_final %>% 
+  distinct(Order, Family, Genus_Subgenus, species) %>% 
+  group_by(Order, Family, Genus_Subgenus,species) %>% 
+  tally()
+
+SEAMES_spongeID_final %>% 
+  summarise(
+    n_orders = n_distinct(Order),
+    n_families = n_distinct(Family),
+    n_genera = n_distinct(Genus_Subgenus),
+    n_species = n_distinct(TAXA)
+  )
+```
