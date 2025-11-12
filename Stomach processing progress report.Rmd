@@ -1,0 +1,144 @@
+---
+title: "Stomach Contents"
+author: "Sutton"
+date: "2025-11-11"
+output:
+ html_document:
+    code_folding: hide
+---
+
+set up
+```{r}
+library(tidyverse)
+library(tidyr)
+library(knitr)
+```
+
+read in data
+```{r}
+contents <- read_csv("//fs1-hba.nexus.csiro.au/{EV-SEA-MES}/work/Trophic_Hypothesis/DietAnalysis/ProcessingProgressReport/AllStomachDataView.csv")
+```
+
+separate voyage ops
+```{r}
+contents <- contents %>%
+  mutate(Survey_Ops = `Survey Ops`) %>% 
+  tidyr::separate(
+    `Survey Ops`,            
+    into = c("Voyage", "Ops"),
+    sep = "_(?=[^_]+$)"          # split at the last underscore
+  )
+```
+
+create Zone field
+
+```{r}
+contents <- contents %>% 
+  mutate(Zone = ifelse(`Start Lat` >= -38.50,"N",
+                       ifelse(`Start Lat`>= -39.00, "buffer","S"))) 
+  
+  
+unique(contents$Zone)
+
+```
+
+combine fullness cats
+
+```{r}
+unique(contents$`Fullnes Cat`)
+```
+
+combine fullness category
+
+```{r}
+contents <- contents %>% 
+  mutate(Full = ifelse(`Fullnes Cat` == "Empty", "Empty","Fullish"))
+```
+
+check
+
+```{r}
+contents %>% 
+  group_by(`Fullnes Cat`,Full) %>% 
+  summarise(n())
+```
+
+
+```{r}
+unique(contents$`Common Name`)
+```
+Suummary of work 
+
+```{r}
+contents_species <- contents %>% 
+  filter(`Common Name`== "Common Jack Mackerel"|`Common Name`== "Tiger Flathead" | `Common Name`== "Silver Warehou" |`Common Name`== "Gemfish" ) %>% 
+  group_by(`Common Name`, Voyage, Zone, Full) %>% 
+  summarise(count =n())
+
+print(contents_species)
+
+# summary_contents_species <- contents_species%>% 
+#   ungroup() %>% 
+#   pivot_wider(names_from = Full, values_from = count)
+
+
+# summary_contents_species <- contents_species %>% 
+#   group_by(`Common Name`, Full) %>%
+#   summarise(count = sum(count), .groups = "drop_last") %>%
+#   mutate(Voyage = "Total") %>%   # label total rows
+#   bind_rows(contents_species) %>%
+#   arrange(`Common Name`, Voyage) %>%
+#   pivot_wider(
+#     names_from = Full,
+#     values_from = count,
+#     values_fill = 0
+#   )
+
+
+summary_contents_species <- contents_species %>%
+  # Voyage-level subtotals (sum across Zone)
+  group_by(`Common Name`, Voyage, Full) %>%
+  summarise(count = sum(count), .groups = "drop") %>%
+  mutate(Zone = "Subtotal (Voyage)") %>%
+  
+  # Bind back to detailed data
+  bind_rows(contents_species) %>%
+  
+  # Common Name–level totals (sum across all voyages)
+  bind_rows(
+    contents_species %>%
+      group_by(`Common Name`, Full) %>%
+      summarise(count = sum(count), .groups = "drop") %>%
+      mutate(Voyage = "Total", Zone = "Species Total")
+  ) %>%
+  
+    # ---- Order factor levels for Zone ----
+  mutate(
+    Zone = factor(
+      Zone,
+      levels = c("N", "S","buffer", "Subtotal (Voyage)", "Species Total")
+    )
+  ) %>%
+  
+
+  
+  arrange(`Common Name`, Voyage, Zone) %>%
+  pivot_wider(
+    names_from = Full,
+    values_from = count,
+    values_fill = 0
+  ) %>% 
+  mutate(total = Empty + Fullish)
+
+print(summary_contents_species)
+
+#sutton's hard dirve
+write.csv(summary_contents_species,"Results/SEAMES_dietdata_progress.csv")
+# SEAMES server
+write.csv(summary_contents_species,"//fs1-hba.nexus.csiro.au/{EV-SEA-MES}/work/Trophic_Hypothesis/DietAnalysis/ProcessingProgressReport/SEAMES_dietdata_progress.csv")
+
+```
+
+
+
+
